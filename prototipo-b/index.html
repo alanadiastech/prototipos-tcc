@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<title>📚 Protótipo B</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">📚 Protótipo B</div>
+  </header>
+  <div class="container">
+    <h1>Crie imagens com o poder do Protótipo B</h1>
+
+    <input id="promptInput" type="text" placeholder="Descreva como você deseja a imagem" />
+
+    <div class="suggestions" title="Exemplo de prompt">
+      <div class="suggestion">Um gato astronauta</div>
+      <div class="suggestion">Uma cidade futurista em Marte</div>
+      <div class="suggestion">Um pôr do sol na praia</div>
+    </div>
+
+    <button id="generateBtn" class="btn">
+      <span>Gerar imagem</span>
+    </button>
+
+    <div id="status" class="status-text"></div>
+
+    <div class="image-box">
+      <div id="imagePlaceholder" class="placeholder">A imagem gerada aparecerá aqui</div>
+      <img id="generatedImage" alt="" style="display: none;" />
+    </div>
+
+    <div class="history-carousel-title">
+      <h2>Histórico de imagens geradas</h2>
+    </div>
+
+    <div class="image-box">
+      <div id="historicoPlaceholder" class="placeholder">As últimas imagens geradas aparecerão aqui</div>
+      <div id="history" class="history-carousel"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

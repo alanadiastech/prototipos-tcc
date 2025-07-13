@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fefefe;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e6f0ff;
+    border: 1px solid #b3d1ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+.note {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #666;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        margin: 20px 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    .result-card {
+        font-size: 1rem;
+        padding: 16px;
+    }
+}
