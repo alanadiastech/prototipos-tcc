@@ -1,4 +1,4 @@
-const MAX_USAGE_TIME = 0.1 * 60 * 1000;
+const MAX_USAGE_TIME = 8 * 60 * 1000;
 const BLOCK_KEY = "blockedUntil";
 
 const btn = document.getElementById("generateBtn");
