@@ -5,7 +5,7 @@ const placeholder = document.getElementById("imagePlaceholder");
 
 const WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbzRBDUM7qDGcT1o4cKK0Qs76H787WWz96qVixWwyPmSBVn_rnE-VxWE63fcQNtuG8a5/exec";
 
-const MAX_USAGE_TIME = 0.1 * 60 * 1000;
+const MAX_USAGE_TIME = 8 * 60 * 1000;
 const BLOCK_KEY = "blockedUntil";
 
 let clickCount = 0;
